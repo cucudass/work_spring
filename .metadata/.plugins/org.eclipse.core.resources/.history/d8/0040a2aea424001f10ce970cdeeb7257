@@ -1,0 +1,13 @@
+package com.lgy.spring_ex2_6;
+
+public class Capital {
+	public String str;
+
+	public String getStr() {
+		return str;
+	}
+
+	public void setStr(String str) {
+		this.str = str;
+	}
+}

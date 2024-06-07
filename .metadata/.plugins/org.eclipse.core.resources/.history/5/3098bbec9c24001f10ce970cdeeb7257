@@ -1,0 +1,7 @@
+package com.lgy.spring_ex2_4;
+
+public class Median {
+	private int a, b, c;
+	
+	
+}

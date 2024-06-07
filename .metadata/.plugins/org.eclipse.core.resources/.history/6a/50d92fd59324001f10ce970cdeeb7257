@@ -1,0 +1,40 @@
+package com.lgy.spring_ex2_2;
+
+public class Season {
+	private int month;
+	
+	public void getmonth() {
+		switch (month) {
+		case 12:
+		case 1:
+		case 2:
+			System.out.println("겨울");
+			break;
+		case 12:
+		case 1:
+		case 2:
+			System.out.println("겨울");
+			break;
+		case 12:
+		case 1:
+		case 2:
+			System.out.println("겨울");
+			break;
+		case 12:
+		case 1:
+		case 2:
+			System.out.println("겨울");
+			break;
+		default:
+			break;
+		}
+	}
+	
+	public int getMonth() {
+		return month;
+	}
+
+	public void setMonth(int month) {
+		this.month = month;
+	}
+}

@@ -1,0 +1,7 @@
+package com.lgy.spring_ex2_4;
+
+public class RectangleMedian {
+	public static void main(String[] args) {
+		
+	}
+}

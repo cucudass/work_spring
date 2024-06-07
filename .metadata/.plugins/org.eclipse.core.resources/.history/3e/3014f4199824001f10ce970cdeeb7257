@@ -1,0 +1,17 @@
+package com.lgy.spring_ex2_3;
+
+public class Three {
+	private int num;
+	
+	public void process() {
+		String str = "";
+		if(num % 3 == 0)
+			
+	}
+	
+	public int getNum() { return num; }
+
+	public void setNum(int num) { this.num = num; }
+	
+	
+}

@@ -1,0 +1,13 @@
+package com.lgy.spring_ex2_2;
+
+public class Won2dollar {
+	private double dollar;
+
+	public void getdollar() {
+		System.out.println("$"+(dollar / 1200.0));
+	}
+	
+	public double getDollar() { return dollar; }
+
+	public void setDollar(double dollar) { this.dollar = dollar; }
+}

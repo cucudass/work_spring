@@ -1,0 +1,10 @@
+package com.lgy.spring_ex2_3;
+
+public class DivAndRemains {
+	private int num;
+
+	public int getNum() { return num; }
+
+	public void setNum(int num) { this.num = num; }
+	
+}

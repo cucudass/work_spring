@@ -1,0 +1,7 @@
+package com.lgy.spring_ex2_5;
+
+public class Triangle {
+	private int num1, num2, num3;
+	
+	
+}
