@@ -3,4 +3,9 @@
 <aop-project name="spring_test"/>
 <aop-project name="spring_2_1"/>
 <aop-project name="spring_ex2_1"/>
+<aop-project name="spring_ex2_2"/>
+<aop-project name="spring_ex2_3"/>
+<aop-project name="spring_ex2_4"/>
+<aop-project name="spring_ex2_5"/>
+<aop-project name="spring_ex2_6"/>
 </aop-reference-model>

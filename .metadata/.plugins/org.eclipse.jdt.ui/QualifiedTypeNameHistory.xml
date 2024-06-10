@@ -5,4 +5,18 @@
     <fullyQualifiedTypeName name="com.lgy.spring_ex2_1.Circle"/>
     <fullyQualifiedTypeName name="org.w3c.dom.css.Rect"/>
     <fullyQualifiedTypeName name="com.lgy.spring_ex2_1.Rectangle"/>
+    <fullyQualifiedTypeName name="com.lgy.spring_ex2_2.Season"/>
+    <fullyQualifiedTypeName name="com.lgy.spring_ex2_2.Won2dollar"/>
+    <fullyQualifiedTypeName name="com.lgy.spring_ex2_3.Three"/>
+    <fullyQualifiedTypeName name="com.lgy.spring_ex2_3.DivAndRemains"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.lgy.spring_ex2_4.Rectangle"/>
+    <fullyQualifiedTypeName name="com.lgy.spring_ex2_4.Median"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="com.lgy.spring_ex2_5.Multiple"/>
+    <fullyQualifiedTypeName name="com.lgy.spring_ex2_5.Triangle"/>
+    <fullyQualifiedTypeName name="com.lgy.spring_ex2_6.Asterisk"/>
+    <fullyQualifiedTypeName name="com.lgy.spring_ex2_6.Capital"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
 </qualifiedTypeNameHistroy>

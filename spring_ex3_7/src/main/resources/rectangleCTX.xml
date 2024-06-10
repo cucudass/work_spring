@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="rect" class="com.lgy.spring_ex3_7.Rectangle"/>
+	<bean id="myrect" class="com.lgy.spring_ex3_7.MyRectangle">
+		<property name="rectangle">
+			<ref bean="rect"/>
+		</property>
+		<property name="x" value="150"/>
+		<property name="y" value="150"/>
+	</bean>
+</beans>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="w2d" class="com.lgy.spring_ex3_4.Won2Dollar"></bean>
+	<bean id="mw2d" class="com.lgy.spring_ex3_4.MyWon2Dollar">
+		<property name="w2d">
+			<ref bean="w2d"/>
+		</property>
+		<property name="money" value="3600"></property>
+	</bean>
+
+</beans>
