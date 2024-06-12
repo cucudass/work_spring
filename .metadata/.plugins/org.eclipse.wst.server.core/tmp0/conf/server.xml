@@ -160,7 +160,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="D:\dev\work_spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="D:\dev\work_spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\spring_test" path="/spring_test" reloadable="true" source="org.eclipse.jst.jee.server:spring_test"/></Host>
+      <Context docBase="D:\dev\work_spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="D:\dev\work_spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\spring_test" path="/spring_test" reloadable="true" source="org.eclipse.jst.jee.server:spring_test"/><Context docBase="D:\dev\work_spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\spring_10_1" path="/spring_10_1" reloadable="true" source="org.eclipse.jst.jee.server:spring_10_1"/><Context docBase="D:\dev\work_spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\spring_11_1" path="/spring_11_1" reloadable="true" source="org.eclipse.jst.jee.server:spring_11_1"/><Context docBase="D:\dev\work_spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\spring_11_2" path="/spring_11_2" reloadable="true" source="org.eclipse.jst.jee.server:spring_11_2"/></Host>
     </Engine>
   </Service>
 </Server>

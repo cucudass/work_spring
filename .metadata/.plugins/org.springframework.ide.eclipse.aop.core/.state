@@ -1,11 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
-<aop-project name="spring_test"/>
+<aop-project name="Spring_4_1"/>
+<aop-project name="spring_ex3_10"/>
+<aop-project name="spring_6_1"/>
+<aop-project name="spring_5_2"/>
 <aop-project name="spring_2_1"/>
-<aop-project name="spring_ex2_1"/>
-<aop-project name="spring_ex2_2"/>
-<aop-project name="spring_ex2_3"/>
+<aop-project name="spring_ex6_4"/>
+<aop-project name="spring_ex3_7"/>
+<aop-project name="spring_ex3_3"/>
 <aop-project name="spring_ex2_4"/>
-<aop-project name="spring_ex2_5"/>
+<aop-project name="spring_ex5_1"/>
+<aop-project name="spring_test"/>
+<aop-project name="spring_6_4"/>
+<aop-project name="spring_ex6_3"/>
+<aop-project name="spring_ex3_2"/>
+<aop-project name="spring_ex2_3"/>
+<aop-project name="spring_ex3_6"/>
+<aop-project name="spring_3_2"/>
+<aop-project name="spring_6_3"/>
+<aop-project name="spring_ex6_2"/>
+<aop-project name="spring_ex3_9"/>
+<aop-project name="spring_ex2_2"/>
+<aop-project name="spring_ex3_1"/>
 <aop-project name="spring_ex2_6"/>
+<aop-project name="spring_ex3_5"/>
+<aop-project name="Spring_5_1"/>
+<aop-project name="spring_3_1"/>
+<aop-project name="spring_6_2"/>
+<aop-project name="spring_ex6_1"/>
+<aop-project name="spring_ex6_5"/>
+<aop-project name="spring_ex3_8"/>
+<aop-project name="spring_ex2_1"/>
+<aop-project name="spring_ex2_5"/>
+<aop-project name="spring_ex3_4"/>
 </aop-reference-model>
