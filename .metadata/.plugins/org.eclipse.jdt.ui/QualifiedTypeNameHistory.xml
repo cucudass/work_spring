@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.lgy.spring_ex3_8.Median"/>
-    <fullyQualifiedTypeName name="com.lgy.spring_ex3_8.MyMedian"/>
-    <fullyQualifiedTypeName name="com.lgy.spring_ex3_9.EvenNumber"/>
-    <fullyQualifiedTypeName name="com.lgy.spring_ex3_9.MyEvenNumber"/>
-    <fullyQualifiedTypeName name="com.lgy.spring_ex3_10.Capital"/>
-    <fullyQualifiedTypeName name="com.lgy.spring_ex3_10.MyCapital"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
-    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
-    <fullyQualifiedTypeName name="com.lgy.Spring_4_1.BMICalculator"/>
-    <fullyQualifiedTypeName name="com.lgy.Spring_4_1.MyInfo"/>
     <fullyQualifiedTypeName name="com.lgy.Spring_5_1.Student"/>
     <fullyQualifiedTypeName name="com.lgy.Spring_5_1.StudentInfo"/>
     <fullyQualifiedTypeName name="com.lgy.spring_5_2.Pencil6BWithEraser"/>
@@ -59,5 +49,15 @@
     <fullyQualifiedTypeName name="org.springframework.context.support.GenericXmlApplicationContext"/>
     <fullyQualifiedTypeName name="com.lgy.spring_ex9_1.Car"/>
     <fullyQualifiedTypeName name="com.lgy.spring_ex9_1.Graphic"/>
+    <fullyQualifiedTypeName name="org.springframework.validation.BindingResult"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
+    <fullyQualifiedTypeName name="com.lgy.spring_12_3.Member"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
+    <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMethod"/>
+    <fullyQualifiedTypeName name="org.springframework.web.servlet.ModelAndView"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ModelAttribute"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
 </qualifiedTypeNameHistroy>

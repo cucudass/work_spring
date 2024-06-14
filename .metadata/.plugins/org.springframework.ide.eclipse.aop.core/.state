@@ -1,33 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
-<aop-project name="spring_ex3_3"/>
-<aop-project name="spring_ex2_4"/>
+<aop-project name="Spring_4_1"/>
+<aop-project name="spring_11_5"/>
+<aop-project name="spring_12_4"/>
+<aop-project name="spring_13_3"/>
+<aop-project name="spring_2_1"/>
 <aop-project name="spring_ex5_1"/>
+<aop-project name="spring_ex2_4"/>
+<aop-project name="spring_ex3_3"/>
+<aop-project name="spring_ex11_4"/>
+<aop-project name="spring_11_4"/>
+<aop-project name="spring_12_3"/>
+<aop-project name="spring_13_2"/>
+<aop-project name="spring_14_1"/>
 <aop-project name="spring_6_4"/>
 <aop-project name="spring_7_3"/>
 <aop-project name="spring_9_1"/>
+<aop-project name="spring_ex11_3"/>
 <aop-project name="spring_ex2_3"/>
 <aop-project name="spring_ex3_2"/>
+<aop-project name="spring_13_1_2"/>
 <aop-project name="spring_6_3"/>
 <aop-project name="spring_7_2"/>
 <aop-project name="spring_8_1"/>
-<aop-project name="spring_ex2_2"/>
-<aop-project name="spring_ex3_1"/>
-<aop-project name="spring_6_2"/>
-<aop-project name="spring_7_1"/>
-<aop-project name="spring_ex2_1"/>
-<aop-project name="spring_6_1"/>
-<aop-project name="spring_5_2"/>
-<aop-project name="spring_3_2"/>
-<aop-project name="spring_3_1"/>
-<aop-project name="Spring_4_1"/>
-<aop-project name="spring_2_1"/>
 <aop-project name="spring_ex3_9"/>
+<aop-project name="spring_ex3_1"/>
+<aop-project name="spring_ex2_2"/>
+<aop-project name="spring_ex11_2"/>
 <aop-project name="Spring_5_1"/>
+<aop-project name="spring_11_6"/>
+<aop-project name="spring_7_1"/>
+<aop-project name="spring_6_2"/>
 <aop-project name="spring_ex6_5"/>
 <aop-project name="spring_ex3_8"/>
+<aop-project name="spring_ex2_1"/>
+<aop-project name="spring_ex11_1"/>
 <aop-project name="spring_ex3_10"/>
 <aop-project name="spring_11_1"/>
+<aop-project name="spring_5_2"/>
+<aop-project name="spring_6_1"/>
 <aop-project name="spring_ex6_4"/>
 <aop-project name="spring_ex9_1">
 <aspect-definition advice-class-name="com.lgy.spring_ex9_1.LogAop" advice-method-name="loggerAOP(org.aspectj.lang.ProceedingJoinPoint)" advice-type="AROUND" aspect-end-line-number="9" aspect-name="logAop" aspect-start-line-number="9" factory-id="org.springframework.ide.eclipse.aop.core.annotationAspectDefinitionElementFactory" file="/spring_ex9_1/src/main/resources/applicationCTX.xml" pointcut-expression="pointCutMethod()" proxy-target-class="false">
@@ -68,11 +79,18 @@
 </aspect-definition>
 </aop-project>
 <aop-project name="spring_ex3_6"/>
+<aop-project name="spring_11_3"/>
+<aop-project name="spring_12_2"/>
+<aop-project name="spring_13_1"/>
+<aop-project name="spring_3_2"/>
+<aop-project name="spring_ex11_1a"/>
 <aop-project name="spring_ex6_2"/>
 <aop-project name="spring_ex2_6"/>
 <aop-project name="spring_ex3_5"/>
 <aop-project name="spring_11_2"/>
+<aop-project name="spring_12_1"/>
+<aop-project name="spring_3_1"/>
 <aop-project name="spring_ex6_1"/>
-<aop-project name="spring_ex2_5"/>
 <aop-project name="spring_ex3_4"/>
+<aop-project name="spring_ex2_5"/>
 </aop-reference-model>
