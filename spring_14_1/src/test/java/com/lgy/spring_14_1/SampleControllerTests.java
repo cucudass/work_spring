@@ -23,8 +23,9 @@ import lombok.extern.slf4j.Slf4j;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @WebAppConfiguration
-@ContextConfiguration({"file:src/main/webapp/WEB-INF/spring/root-context.xml",
-						"file:src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xm"})
+@ContextConfiguration({"file:src/main/webapp/WEB-INF/spring/root-context.xml"
+	,"file:src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml"})
+
 @Slf4j
 public class SampleControllerTests {
 	@Setter(onMethod_ = {@Autowired}) //스프링 객체로 저장해서 사용
@@ -38,15 +39,20 @@ public class SampleControllerTests {
 	
 	@Test
 	public void testConvert() throws Exception {
-		TicketVO ticketVO = new TicketVO();
+		TicketVO ticketVO=new TicketVO();
 		ticketVO.setTno(123);
 		ticketVO.setOwner("Admin");
 		ticketVO.setGrade("B");
 		
-		//Gson: 구글에서 제공되는 것으로 객체를 문자열로 변환
+//		Gson : 구글에서 제공되는 것으로 객체를 문자열로 변환
 		String jsonStr = new Gson().toJson(ticketVO);
 		log.info("@# jonStr =>"+jsonStr);
 		
-		mockMvc.perform(post("/sample/ticket").contentType(MediaType.APPLICATION_JSON).content(jsonStr)).andExpect(status().is(200));
+//		post("/sample/ticket") : post 방식으로 컨트롤러단을 찾아감
+		mockMvc.perform(post("/sample/ticket")
+				.contentType(MediaType.APPLICATION_JSON)
+				.content(jsonStr)
+				)
+				.andExpect(status().is(200));
 	}
 }

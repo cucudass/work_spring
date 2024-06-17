@@ -1,6 +1,0 @@
-package com.lgy.spring_ex2_5;
-
-public class MultipleTriangle {
-	Multiple mul = new Multiple();
-	mul.setNum();
-}

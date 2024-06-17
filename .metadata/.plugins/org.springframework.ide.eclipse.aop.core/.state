@@ -13,12 +13,12 @@
 <aop-project name="spring_12_3"/>
 <aop-project name="spring_13_2"/>
 <aop-project name="spring_14_1"/>
-<aop-project name="spring_6_4"/>
 <aop-project name="spring_7_3"/>
+<aop-project name="spring_6_4"/>
 <aop-project name="spring_9_1"/>
-<aop-project name="spring_ex11_3"/>
-<aop-project name="spring_ex2_3"/>
 <aop-project name="spring_ex3_2"/>
+<aop-project name="spring_ex2_3"/>
+<aop-project name="spring_ex11_3"/>
 <aop-project name="spring_13_1_2"/>
 <aop-project name="spring_6_3"/>
 <aop-project name="spring_7_2"/>
