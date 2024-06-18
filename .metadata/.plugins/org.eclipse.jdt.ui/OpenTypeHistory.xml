@@ -1,5 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy>
-    <typeInfo handle="=spring_14_1/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.lgy.spring_14_1.domain{TicketVO.java[TicketVO" modifiers="1" timestamp="1718333258898"/>
-    <typeInfo handle="=spring_14_1/C:\/Users\/GGG\/.m2\/repository\/javax\/annotation\/javax.annotation-api\/1.3.2\/javax.annotation-api-1.3.2.jar=/maven.pomderived=/true=/=/org.eclipse.jst.component.dependency=/\/WEB-INF\/lib=/=/maven.pomderived=/true=/=/org.eclipse.jst.component.archivename=/javax.annotation-api-1.3.2.jar=/=/maven.groupId=/javax.annotation=/=/maven.artifactId=/javax.annotation-api=/=/maven.version=/1.3.2=/=/maven.scope=/compile=/&lt;javax.annotation(PostConstruct.class[PostConstruct" modifiers="9729" timestamp="1718153201839"/>
-</typeInfoHistroy>
+<typeInfoHistroy/>
