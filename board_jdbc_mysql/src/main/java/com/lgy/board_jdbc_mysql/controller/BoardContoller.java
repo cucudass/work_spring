@@ -9,6 +9,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.lgy.board_jdbc_mysql.service.BoardContentService;
+import com.lgy.board_jdbc_mysql.service.BoardDeleteService;
+import com.lgy.board_jdbc_mysql.service.BoardDeleteService;
 import com.lgy.board_jdbc_mysql.service.BoardListService;
 import com.lgy.board_jdbc_mysql.service.BoardModifyService;
 import com.lgy.board_jdbc_mysql.service.BoardService;
@@ -89,8 +91,8 @@ public class BoardContoller {
 		log.info("@# delete");
 		model.addAttribute("request", request);
 		
-		//service = new BoardDeleteService();
-		//service.execute(model);
+		service = new BoardDeleteService();
+		service.execute(model);
 		
 		return "redirect:list";
 	}

@@ -14,6 +14,7 @@ import javax.sql.DataSource;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.PreparedStatementCreator;
+import org.springframework.jdbc.core.PreparedStatementSetter;
 
 import com.lgy.board_jdbc_mysql.dto.BoardDTO;
 import com.lgy.board_jdbc_mysql.util.Constant;
@@ -150,7 +151,8 @@ public class BoardDAO {
 	 * 글 목록 출력
 	 */
 	// 게시글 하나를 리턴하기 위해서 BoardDTO 사용(strID: 글번호)
-	public BoardDTO contentView(String strID) {
+	public BoardDTO contentView(final String strID) {
+		upHit(strID);
 		String sql = " select boardNo, boardName, boardTitle, boardContent, boardDate, boardHit " + 
 					 " from tbl_board " +
 					 " where boardNo = " + strID;
@@ -201,8 +203,19 @@ public class BoardDAO {
 	/**
 	 * 게시글 조회수 1 증가
 	 * @param boardNo
-	 *//*
-	public void upHit(String boardNo) {
+	 */
+	public void upHit(final String boardNo) {
+		String sql = " update tbl_board set boardHit = boardHit + 1 " +
+			 	 " where boardNo = ? ";
+		template.update(sql, new PreparedStatementSetter() {
+
+			@Override
+			public void setValues(PreparedStatement ps) throws SQLException {
+				ps.setInt(1, Integer.parseInt(boardNo));
+				
+			}
+		});
+		/*
 		Connection conn = null;
 		PreparedStatement pstmt = null;
 		
@@ -223,30 +236,26 @@ public class BoardDAO {
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
-		}		
+		}	
+		*/	
 	}
 	
 	/**
 	 * 게시글 수정
 	 * @param boardNo
 	 */
-	public void modify(String boardNo, String boardName, String boardTitle, String boardContent) {
+	public void modify(final String boardNo, final String boardName, final String boardTitle, final String boardContent) {
 		//update : jdbc template 으로 insert (PreparedStatementCreator 객체 사용)
-		template.update(new PreparedStatementCreator() {
+		String sql = " update tbl_board set boardName = ?, boardTitle = ?, boardContent = ? " +
+				 	 " where boardNo = ? ";
+		template.update(sql, new PreparedStatementSetter() {
 			
 			@Override
-			public PreparedStatement createPreparedStatement(Connection con) throws SQLException {
-				String sql = " update tbl_board set boardName = ?, boardTitle = ?, boardContent = ? " +
-						 	 " where boardNo = ? ";
-				//con : 메소드 매개변수와 이름 일치
-				PreparedStatement pstmt = con.prepareStatement(sql);
-				//파라미터 등은 final로 구성
-				pstmt.setString(1, boardName);
-				pstmt.setString(2, boardTitle);
-				pstmt.setString(3, boardContent);
-				pstmt.setInt(4, Integer.parseInt(boardNo));
-				
-				return pstmt;
+			public void setValues(PreparedStatement ps) throws SQLException {
+				ps.setString(1, boardName);
+				ps.setString(2, boardTitle);
+				ps.setString(3, boardContent);
+				ps.setInt(4, Integer.parseInt(boardNo));
 			}
 		});
 		/*
@@ -280,8 +289,18 @@ public class BoardDAO {
 	/**
 	 * 게시글 삭제
 	 * @param boardNo
-	 *//*
-	public void delete(String boardNo) {
+	 */
+	public void delete(final String boardNo) {
+		String sql = " delete from tbl_board " +
+				 	 " where boardNo = ? ";
+		template.update(sql, new PreparedStatementSetter() {
+
+			@Override
+			public void setValues(PreparedStatement ps) throws SQLException {
+				ps.setInt(1, Integer.parseInt(boardNo));
+			}
+		});
+		/*
 		Connection conn = null;
 		PreparedStatement pstmt = null;
 		
@@ -302,7 +321,6 @@ public class BoardDAO {
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
-		}		
+		}*/		
 	}
-	*/
 }
