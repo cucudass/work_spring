@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <servers>
-  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v9.0 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v9.0 Server at localhost" name="Tomcat v9.0 Server at localhost" runtime-id="Apache Tomcat v9.0" server-type="org.eclipse.jst.server.tomcat.90" server-type-id="org.eclipse.jst.server.tomcat.90" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="48">
-    <list key="modules" value0="board_jdbc_mysql::org.eclipse.jst.jee.server:board_jdbc_mysql::jst.web::2.5" value1="item_jdbc_oracle::org.eclipse.jst.jee.server:item_jdbc_oracle::jst.web::2.5" value2="member_jdbc_oracle::org.eclipse.jst.jee.server:member_jdbc_oracle::jst.web::2.5" value3="board_mybatis_mysql::org.eclipse.jst.jee.server:board_mybatis_mysql::jst.web::2.5"/>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v9.0 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v9.0 Server at localhost" name="Tomcat v9.0 Server at localhost" runtime-id="Apache Tomcat v9.0" server-type="org.eclipse.jst.server.tomcat.90" server-type-id="org.eclipse.jst.server.tomcat.90" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="54">
+    <list key="modules" value0="item_mybatis_oracle::org.eclipse.jst.jee.server:item_mybatis_oracle::jst.web::2.5" value1="member_mybatis_oracle::org.eclipse.jst.jee.server:member_mybatis_oracle::jst.web::2.5" value2="board_std_mysql::org.eclipse.jst.jee.server:board_std_mysql::jst.web::2.5" value3="item_std_oracle::org.eclipse.jst.jee.server:item_std_oracle::jst.web::2.5"/>
   </server>
 </servers>

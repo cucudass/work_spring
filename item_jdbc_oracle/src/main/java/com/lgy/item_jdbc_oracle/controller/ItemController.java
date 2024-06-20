@@ -26,7 +26,7 @@ public class ItemController {
 		this.template = template;
 		Constant.template = this.template;
 	}
-	
+
 	@RequestMapping("/item_write")
 	public String write(Model model) {
 		log.info("@# item_write");
